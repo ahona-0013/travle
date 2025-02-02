@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <!-- navabr -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li><a href="#" style="color: #fc036b; text-decoration: underline;font-weight: bold;">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Explore</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+
+        </ul>
+
+        <img src="assest/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    
+    <header>
+        <div class="header-contant">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div> 
+            <h1>A Wonderful Gift</h1>
+            <a href="" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- events -->
+
+    <section class="event">
+     <div class="title">
+        <h1>Upcomin Events</h1>
+        <div class="line"></div>
+     </div>
+
+     <div class="row">
+        <div class="col">
+            <img src="assest/img1.png" alt="">
+            <h3>Everest Camp Treack</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti aliquam cupiditate vitae quos magnam? Maiores.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+
+        <div class="col">
+            <img src="assest/img2.png" alt="">
+            <h3>Walking Holidays</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti aliquam cupiditate vitae quos magnam? Maiores.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+     </div>
+    </section>
+
+    <section class="explore">
+       <div class="explore-contant">
+        <h1>Explore The world</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, rem? Inventore unde, in est nemo qui illum itaque? Nemo adipisci numquam voluptatem excepturi, possimus ea.</p>
+        <a href="#" class="ctn">Learn More</a>
+       </div>
+    </section>
+
+     <section class="tours">
+        <div class="row">
+          <div class="col content-col">
+            <h1>UPCOMING TOURS & <br> DESTINATION</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat eos vitae quia? Veniam maxime placeat, explicabo obcaecati, eveniet similique molestias ab minima earum quaerat perferendis quo enim reprehenderit, at saepe!</p>
+            <a href="#" class="ctn">Learn More</a>
+          </div>
+          <div class="col img-col">
+            <div class="img-gallery">
+                <img src="assest/img3.png" alt="">
+                <img src="assest/img4.png" alt="">
+                <img src="assest/img5.png" alt="">
+                <img src="assest/img6.png" alt="">
+
+            </div>
+          </div>
+        </div>
+     </section>
+
+     <section class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ex ducimus deleniti, accusantium quisquam repellendus.</p>
+        <p>Copyright &copy; 2025 Outdoor Adventure</p>
+     </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',function(){
+            navlinks.classList.toggle('active')
+        })
+    </script>
+ 
+</body>
+</html>
